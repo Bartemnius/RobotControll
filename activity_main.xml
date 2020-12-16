@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xmls="http://schemas.android.com/tools"
+    xmls:tools="http:/schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <com.robotcontroll.JoystickView
+        android:id="@+id/joystickRight"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:padding="10dp" />
+
+    <com.robotcontroll.JoystickView
+        android:id="@+id/joystickLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:padding="10dp" />
+
+</LinearLayout>
+
+
+
+
